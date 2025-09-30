@@ -1,0 +1,207 @@
+/* PORTAFOLIO MACARENA MARIN */
+
+/* Link de colores usados: https://paletadecolores.online/grises/*/
+
+/* REINICIAMOS EL CSS */
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+/* BODY */
+body {
+  scroll-behavior: smooth;
+  background-color: #8c8c8c;  
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+
+
+/* HEADER */
+header {
+  width: 100%;
+  background-color: #8c8c8c;  /* Gris oscuro de fondo del header */
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* Navbar alineada a la derecha */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #5dc1b9 !important; 
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+/* Links del navbar */
+.nav-link {
+  color: #fff !important;    
+  font-weight: 500;
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Hover de links */
+.nav-link:hover {
+  color: #8ae0db !important;   
+}
+
+
+
+
+/* SECCIÓN INICIO */
+
+#inicio {
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#inicio h1 {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#inicio p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Contenedor blanco para el formulario */
+.filtros-wrapper {
+  background-color: #ffffff;   
+  padding: 2rem 0;          
+  margin-bottom: 3rem;
+  width: 100%;             
+  display: flex;             
+  justify-content: center;   
+}
+
+/* El bloque turquesa dentro */
+#formFiltros {
+  background-color: #5dc1b9;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 0;
+
+  width: 100%;
+  max-width: 1100px;           
+}
+
+/* Botón Buscar */
+#formFiltros button,
+#btnVerDatos {
+  background-color: #8c8c8c !important;
+  color: #fff !important;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  display: block;
+  margin: 1rem auto 0 auto;
+  cursor: pointer;
+}
+
+#formFiltros button:hover,
+#btnVerDatos:hover {
+  background-color: #8c8c8c !important;
+}
+
+/* FORMULARIO DE RECOMENDACIONES / DUDAS */
+
+#formConsulta button {
+  background-color: #5dc1b9 !important; 
+  color: #fff !important;              
+  border: none;                        
+  padding: 0.5rem 1.5rem;
+  font-size: 0.85rem;
+  border-radius: 4px;                
+  cursor: pointer;
+}
+
+#formConsulta button:hover {
+  background-color: #49a9a2 !important;
+}
+
+
+
+
+
+/* SECCIÓN CONTACTO */
+#contacto {
+  background-color: #363636; 
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+#contacto h2 {
+  color: #363636;            
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#contacto p {
+  color: #363636;
+  font-size: 1rem;
+  margin: 0.3rem 0;         
+}
+
+
+
+
+
+/* SECCIÓN ACERCA DE MI */
+#acerca {
+  background-color: #8c8c8c; 
+  padding: 60px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#acerca h2 {
+  color: #fff;             
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#acerca p {
+  color: #fff;              
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+
+
+
+/* SECCIÓN FOOTER */
+footer.bg-primary {
+  background-color: #5dc1b9 !important;
+  color: #fff !important;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;  
+}
+
+
