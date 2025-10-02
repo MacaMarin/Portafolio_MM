@@ -190,7 +190,7 @@ def funciones_pavos():
 
 
 # ------------------------------------------------------------------------------------------------------------------
-# Menú principal para elegir ejercicio
+# Menú principal 
 # ------------------------------------------------------------------------------------------------------------------
 def menu():
     while True:
@@ -217,11 +217,13 @@ def menu():
         elif opcion == "6":
             funciones_pavos()
         elif opcion == "0":
-            print("¡Hasta luego!")
+            print("Chauu, nos vemos pronto!")
             break
         else:
-            print("Opción inválida, intenta de nuevo.")
+            print("Lo siento! La opcion que elegiste no es valida. Intenta de nuevo:)")
 
 # Ejecutar el menú
 if __name__ == "__main__":
     menu()
+
+
